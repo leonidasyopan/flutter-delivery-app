@@ -31,7 +31,7 @@ The layout is based on <a href="https://dribbble.com/shots/4133796--Planguru-Fre
 
 Here is a look into the progress:
 
-<img src="#" alt="BroomDelivery Login Page">
+<img src="https://raw.githubusercontent.com/leonidasyopan/flutter-delivery-app/master/assets/img/progress-prints/login-page.png" alt="BroomDelivery Login Page">
 
 <!-- LICENSE -->
 

@@ -25,16 +25,16 @@ class LoginPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Icon(
-                    FontAwesomeIcons.pepperHot,
+                    FontAwesomeIcons.broom,
                     color: Color(0xFF7540EE),
-                    size: 30.0,
+                    size: 40.0,
                   ),
-                  SizedBox(width: 5.0),
+                  SizedBox(width: 1.0),
                   Text(
-                    'HotDelivery',
+                    'BroomDelivery',
                     style: TextStyle(
                       color: Color(0xFF7540EE),
-                      fontSize: 18.0,
+                      fontSize: 20.0,
                       fontStyle: FontStyle.italic,
                     ),
                   ),
@@ -51,23 +51,37 @@ class LoginPage extends StatelessWidget {
               ),
               SizedBox(height: 10,),
               Text(
-                'Seja bem-vindo novamente.',
+                'Seja bem-vindo(a) novamente.',
                 style: TextStyle(
                   color: Color(0xFF787993),
                   fontSize: 20.0,
-                  letterSpacing: 1.5,
+                  letterSpacing: 0.8,
                 ),
               ),
               SizedBox(height: 50,),
               TextField(
                 decoration: InputDecoration(
                   labelText: 'E-mail',
+                  labelStyle: TextStyle(
+                    color: Color(0xFF787993),
+                    fontSize: 18.0
+                  ),
+                  focusedBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(color: Color(0xFF7540EE),),
+                  ),
                 ),
               ),
               TextField(
                 obscureText: true,
                 decoration: InputDecoration(
                   labelText: 'Senha',
+                  labelStyle: TextStyle(
+                    color: Color(0xFF787993),
+                    fontSize: 18.0
+                  ),
+                  focusedBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(color: Color(0xFF7540EE),),
+                  ),
                 ),
               ),
               SizedBox(height: 40,),
@@ -84,7 +98,7 @@ class LoginPage extends StatelessWidget {
                     child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                         child: Text(
-                        'Login',
+                        'Entrar',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
